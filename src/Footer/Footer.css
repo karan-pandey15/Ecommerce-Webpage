@@ -1,0 +1,234 @@
+.wrapper_secondContainer {
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3c3c3c;
+  border: none;
+}
+
+.wrapper_data {
+  /* border: 2px solid black; */
+  width: 550px;
+}
+.wrapper_data h4 {
+  color: white;
+  font-size: 2rem;
+}
+.wrapper_data span {
+  color: #fbb710;
+}
+.wrapper_data p {
+  color: rgb(179, 177, 177);
+  font-size: 15px;
+}
+
+.input_data {
+  display: inline-flex;
+}
+.input_data input {
+  padding: 10px;
+  width: 300px;
+  /* color: rgb(60, 60, 60); */
+  font-size: 15px;
+  background-color: #fff;
+  color: #afafaf;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  font-style: italic;
+}
+.input_data button {
+  background-color: #fbb710;
+  border: none;
+  padding: 9px;
+  width: 120px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Black footer style start here  */
+
+@media (max-width: 1000px) {
+  .input_data input {
+    padding: 10px;
+    width: 270px;
+  }
+  .input_data button {
+    width: 100px;
+  }
+  .wrapper_data {
+    width: 440px;
+  }
+  .wrapper_data h4 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper_secondContainer {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .input_data {
+    margin-right: 120px;
+  }
+
+  .input_data input {
+    padding: 12px;
+    width: 450px;
+  }
+  .input_data button {
+    width: 120px;
+  }
+
+  .wrapper_data {
+    width: 700px;
+  }
+  .wrapper_data h4 {
+    font-size: 2rem;
+  }
+  .content_containerBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 250px;
+  }
+  .container_listItem ul li {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+  .footer_option {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    border: 2px solid red;
+    transform: translate(30%);
+  }
+}
+
+@media (max-width: 750px) {
+  .wrapper_secondContainer {
+    height: 70vh;
+  }
+  .wrapper_data {
+    width: 500px;
+  }
+  .input_data {
+    margin-left: 50px;
+  }
+
+  .input_data input {
+    padding: 12px;
+    width: 300px;
+  }
+  .input_data button {
+    width: 120px;
+  }
+  .content_containerBox {
+    width: 100vw;
+  }
+  .container_listItem ul li {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper_secondContainer {
+    height: 50vh;
+  }
+  .wrapper_data {
+    width: 400px;
+  }
+  .wrapper_data h4 {
+    font-size: 1.8rem;
+  }
+  .input_data {
+    margin-left: 130px;
+  }
+
+  .input_data input {
+    padding: 12px;
+    width: 300px;
+  }
+  .input_data button {
+    width: 100px;
+  }
+  .content_containerBox {
+    margin: 0 15px;
+  }
+  .content_containerBox p {
+    font-size: 14px;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+  .menuIcon li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapper_secondContainer {
+    height: 70vh;
+  }
+  .wrapper_data {
+    width: 80vw;
+  }
+  .wrapper_data h4 {
+    font-size: 2rem;
+  }
+  .wrapper_data p {
+    font-size: 20px;
+  }
+  .input_data {
+    margin-left: 100px;
+  }
+
+  .input_data input {
+    padding: 12px;
+    width: 200px;
+  }
+  .input_data button {
+    width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .wrapper_secondContainer {
+    height: 70vh;
+  }
+  .wrapper_data {
+    width: 80vw;
+  }
+  .wrapper_data h4 {
+    font-size: 1.5rem;
+  }
+  .wrapper_data p {
+    font-size: 15px;
+  }
+  .input_data {
+    margin-left: 120px;
+  }
+
+  .input_data input {
+    padding: 10px;
+    width: 150px;
+  }
+  .input_data button {
+    width: 80px;
+  }
+  .content_containerBox p {
+    font-size: 10px;
+  }
+}

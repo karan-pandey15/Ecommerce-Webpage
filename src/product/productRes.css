@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar h1 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .navbar input[type="text"] {
+    margin-bottom: 10px;
+  }
+}
+
+.App {
+  margin: 70px 0 50px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .App {
+    margin: 120px 0 50px;
+  }
+}
